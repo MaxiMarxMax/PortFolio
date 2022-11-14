@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light-gray-bg);
+    }
+
+:root{
+    --red: #c76c62;
+    --light-gray-bg: #dee0e6;
+    --bleu: #134e6f;
+    --bleu-clair: #1ac0c6;
+    --orange: #f8ba5d;
+    --light-red : #F08080;
+    }
+
+header{
+    border: solid black 4px;
+    border-radius: 1rem ;  
+    background-color: var(--light-red);
+    margin-bottom: 50px;
+}
+
+.Port_Folio{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.Port_Folio_description{
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.screen{
+    border: solid black 4px;
+    border-radius: 1rem;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+}
+
+.screen:hover{
+    color: var(--bleu-clair);
+    transform: scale(1.1);
+}
+
+div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+a:visited{
+    color: purple;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--bleu-clair);
+    border: solid black 4px;
+    border-radius: 1rem;
+}
